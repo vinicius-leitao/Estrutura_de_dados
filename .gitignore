@@ -1,2 +1,4 @@
-.arquivos_exe/
+
 .gitignore
+*.exe
+*.vscode
