@@ -17,6 +17,7 @@ bool emptyList(noPtr);
 void roletar(noPtr);
 
 int main(){
+    // Lembrar de inserir o comando chcp 65001 no terminal.
     setlocale(LC_ALL, "Portuguese_Brasil");
     noPtr topo = NULL;
     int op;

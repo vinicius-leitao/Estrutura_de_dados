@@ -20,7 +20,7 @@ void decreasingList(){
         topo = lista;
     }else{
         aux = topo;
-        while(aux != NULL && lista->info < aux->info){
+        while(aux != NULL && lista->info > aux->info){
             ant = aux;
             aux = aux->next;
         }
